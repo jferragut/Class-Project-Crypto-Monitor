@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'class-project-backend.urls'
+ROOT_URLCONF = 'class-project-crypto-monitor.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'class-project-backend.wsgi.application'
+WSGI_APPLICATION = 'class-project-crypto-monitor.wsgi.application'
 
 
 # Database
